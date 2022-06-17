@@ -1,0 +1,11 @@
+How quick can you get?
+
+This is a game that will accomdate people with hearing impairments or visual impairments. The game is essentially a watered down version of guitar hero, in which the user will have to match a string of audio/visual cues. As the game progresses, the difficulty will increase in two different ways. The length of the string to be matched will be increased, and the speed at which the user is presented with the current string will increase. The up, down, left and right arrow keys will each be assigned a corresponding image and a specific piano note, and it is the users task to match the string of inputs they are presented
+
+At the homepage, the user will select the number of players. Once this is set, the game will begin. There will be five levels, and in each level there will be 10 stages.
+
+In the first level, the user will be shown a string of 3 inputs once they press the "show string" button. These inputs will be generated in javascript at random. (up/A#, down/C, left/F for example.) As stated before, these images/piano notes will correspond to one of the arrow keys. After the user is shown this string, it will be their task to replicate it. They will have 10 seconds max to do this. If/when all players complete a stage, they move onto the next, at which point one more input will be added to the string to be replicated, and so on. Once all stages in a level are completed, they move onto the next level, where the same process happens but faster. They will be shown strings at a faster and faster pace as they progress through levels. 
+
+Each user is permitted 10 errors through the entire game. When there is only one player left, that player wins, and will be shown a winning message. If all/any multiple players make it to the end of the game, the player with the fewest errors wins, and will be shown a winning message. There will be an error counter in the top right corner for each player so the players can keep track of who is winning. Once the game is over and a winner is determined, and new game button will appear, and the user will be taken to the homepage. 
+
+The technologies to be used will be HTML, CSS, JavaScript and Canvas. 
